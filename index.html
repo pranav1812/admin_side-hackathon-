@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+        <script src="/__/firebase/init.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <h1>Admin Side</h1>
+
+        <div class="content">
+
+            <form id="add-cafe-form"></form>
+
+            <ul id="cafe-list"></ul>
+
+        </div>
+
+
+    </body>
+</html>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCtZYO6Cb0GyT-Dfx9f29PzA5UjKlKKzFM",
+    authDomain: "pothole-1579544238956.firebaseapp.com",
+    databaseURL: "https://pothole-1579544238956.firebaseio.com",
+    projectId: "pothole-1579544238956",
+    storageBucket: "pothole-1579544238956.appspot.com",
+    messagingSenderId: "229381166820",
+    appId: "1:229381166820:web:eee8595d58229860b2bef1",
+    measurementId: "G-FFY1Q1V5TE"
+
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  const db = firebase.firestore();
+  db.settings({ timestampsInSnapshots: true });
+
+</script>
+<script src="index.js"></script>

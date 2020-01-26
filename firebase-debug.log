@@ -1,0 +1,60 @@
+[debug] [2020-01-25T06:15:25.431Z] ----------------------------------------------------------------------
+[debug] [2020-01-25T06:15:25.435Z] Command:       /root/.nvm/versions/node/v13.2.0/bin/node /root/.nvm/versions/node/v13.2.0/bin/firebase deploy --only hosting:potholeadmin
+[debug] [2020-01-25T06:15:25.435Z] CLI Version:   7.12.1
+[debug] [2020-01-25T06:15:25.435Z] Platform:      linux
+[debug] [2020-01-25T06:15:25.435Z] Node Version:  v13.2.0
+[debug] [2020-01-25T06:15:25.436Z] Time:          Sat Jan 25 2020 11:45:25 GMT+0530 (India Standard Time)
+[debug] [2020-01-25T06:15:25.436Z] ----------------------------------------------------------------------
+[debug] [2020-01-25T06:15:25.436Z] 
+[debug] [2020-01-25T06:15:25.447Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-25T06:15:25.447Z] > authorizing via signed-in user
+[debug] [2020-01-25T06:15:25.447Z] [iam] checking project pothole-1579544238956 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-01-25T06:15:25.450Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/pothole-1579544238956:testIamPermissions  
+
+[debug] [2020-01-25T06:15:27.267Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-25T06:15:27.272Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/pothole-1579544238956  
+ 
+[debug] [2020-01-25T06:15:27.971Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'pothole-1579544238956'...
+[info] 
+[info] i  deploying hosting
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/pothole-1579544238956/overview
+[debug] [2020-01-25T06:15:30.534Z] TypeError: Cannot read property 'deploys' of undefined
+    at /root/.nvm/versions/node/v13.2.0/lib/node_modules/firebase-tools/lib/deploy/index.js:84:36
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-01-25T06:18:00.067Z] ----------------------------------------------------------------------
+[debug] [2020-01-25T06:18:00.070Z] Command:       /root/.nvm/versions/node/v13.2.0/bin/node /root/.nvm/versions/node/v13.2.0/bin/firebase deploy --only hosting:potholeadmin
+[debug] [2020-01-25T06:18:00.071Z] CLI Version:   7.12.1
+[debug] [2020-01-25T06:18:00.071Z] Platform:      linux
+[debug] [2020-01-25T06:18:00.071Z] Node Version:  v13.2.0
+[debug] [2020-01-25T06:18:00.071Z] Time:          Sat Jan 25 2020 11:48:00 GMT+0530 (India Standard Time)
+[debug] [2020-01-25T06:18:00.071Z] ----------------------------------------------------------------------
+[debug] [2020-01-25T06:18:00.072Z] 
+[debug] [2020-01-25T06:18:00.082Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-25T06:18:00.083Z] > authorizing via signed-in user
+[debug] [2020-01-25T06:18:00.083Z] [iam] checking project pothole-1579544238956 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-01-25T06:18:00.085Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/pothole-1579544238956:testIamPermissions  
+
+[debug] [2020-01-25T06:18:01.938Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-25T06:18:01.943Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/pothole-1579544238956  
+ 
+[debug] [2020-01-25T06:18:02.439Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'pothole-1579544238956'...
+[info] 
+[info] i  deploying hosting
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/pothole-1579544238956/overview
+[debug] [2020-01-25T06:18:02.780Z] TypeError: Cannot read property 'deploys' of undefined
+    at /root/.nvm/versions/node/v13.2.0/lib/node_modules/firebase-tools/lib/deploy/index.js:84:36
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[error] 
+[error] Error: An unexpected error has occurred.
